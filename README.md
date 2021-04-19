@@ -14,4 +14,3 @@ here we demonstrate the problem of **alatorian roads**
 We can see a graph that represents the random paths of the drunk guy
 
 ![](https://i.postimg.cc/brKDCv7Q/camino-aleatorio-html.png)
-
