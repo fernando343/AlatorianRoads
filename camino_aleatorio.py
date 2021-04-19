@@ -28,7 +28,7 @@ def caminata(campo, pasos, tipo_de_borracho):
 def graficar(x, y,pasos):
     grafica = figure(title='Random Walks',x_axis_label='x axis', y_axis_label='y axis')
     grafica.line(x, y, legend_label='walk', color='skyblue',name='steven') #recorrido
-    grafica.line(x[0:-1:pasos-1],y[0:-1:pasos-1], color='black', line_width=3) #linea de punto inicial a punto final
+    grafica.line(x[0:-1:pasos-1],y[0:-1:pasos-1], color='black', line_width=1) #linea de punto inicial a punto final
     print(f'x {x[0:-1:pasos-1]}, y {y[0:-1:pasos-1]}')
     show(grafica)
 
